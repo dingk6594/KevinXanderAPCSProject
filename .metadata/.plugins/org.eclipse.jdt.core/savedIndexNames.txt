@@ -17,4 +17,3 @@ INDEX VERSION 1.127+C:\Users\Kevin Ding\Desktop\KevinXanderAPCSProject\.metadata
 1910228820.index
 1492968368.index
 3383392487.index
-4259325729.index
