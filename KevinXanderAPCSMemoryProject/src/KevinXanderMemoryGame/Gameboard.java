@@ -1,5 +1,35 @@
 package KevinXanderMemoryGame;
 
-public class Gameboard {
+import java.awt.Color;
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+import CardsForKevinXanderMemoryGame.Card;
+
+public class Gameboard extends JFrame{
+	
+	public Gameboard(){
+		setSize(400,400);
+		setTitle("Memory Game");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		setUpGame();
+		
+		setVisible(true);
+	}
+	
+	private void setUpGame()
+	{
+		getContentPane().setLayout(new FlowLayout());
+		getContentPane().add(new Card());
+		getContentPane().add(new Card());
+		getContentPane().add(new Card());
+	}
+	
+	
+	public static void main (String[] args){
+		new Gameboard();
+	}
 
 }

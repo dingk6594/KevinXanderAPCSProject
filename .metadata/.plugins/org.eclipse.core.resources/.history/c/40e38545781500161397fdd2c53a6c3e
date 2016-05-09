@@ -1,0 +1,32 @@
+package KevinXanderMemoryGame;
+
+import java.awt.Color;
+
+import javax.swing.JFrame;
+
+import CardsForKevinXanderMemoryGame.Card;
+
+public class Gameboard extends JFrame{
+	
+	public Gameboard(){
+		setSize(400,400);
+		setTitle("Memory Game");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		setUpGame();
+		
+		setVisible(true);
+	}
+	
+	private void setUpGame()
+	{
+		System.out.println("Adding tiles");
+		getContentPane().add(new Card());
+	}
+	
+	
+	public static void main (String[] args){
+		new Gameboard();
+	}
+
+}
