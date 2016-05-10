@@ -1,0 +1,49 @@
+﻿Revert "new"
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Tue May 10 13:46:10 2016 -0700
+#
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 5 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# You are currently rebasing branch 'master' on '77d6897'.
+#
+# Changes to be committed:
+#	deleted:    .metadata/.mylyn/.tasks.xml.zip
+#	modified:   .metadata/.mylyn/tasks.xml.zip
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/KevinXanderAPCSMemoryProject/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/KevinXanderAPCSMemoryProject/.syncinfo.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/0.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+#	deleted:    .metadata/.plugins/org.eclipse.debug.core/.launches/MemoryGame.launch
+#	modified:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdt
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fdx
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.fnm
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.frq
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.nrm
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tii
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_0.tis
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdt
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fdx
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.fnm
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.frq
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.nrm
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.prx
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tii
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1.tis
+#	modified:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen
+#	new file:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1
+#	deleted:    .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_2
+#	modified:   .metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+#	modified:   .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+#	modified:   .metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log
+#
+
