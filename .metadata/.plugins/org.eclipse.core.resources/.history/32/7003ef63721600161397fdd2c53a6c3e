@@ -1,0 +1,13 @@
+package CardsForKevinXanderMemoryGame;
+
+import java.awt.Color;
+
+public class PurpleCard extends Card {
+	
+	public PurpleCard()
+	{
+		super();
+		setFaceColor(Color.))
+	}
+
+}

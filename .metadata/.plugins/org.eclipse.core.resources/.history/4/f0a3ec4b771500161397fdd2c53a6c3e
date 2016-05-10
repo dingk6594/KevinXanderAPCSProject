@@ -1,0 +1,19 @@
+package KevinXanderMemoryGame;
+
+import javax.swing.JFrame;
+
+public class Gameboard extends JFrame{
+	
+	public Gameboard(){
+		setSize(400,400);
+		setTitle("Memory Game");
+		
+		setVisible(true);
+	}
+	
+	
+	public static void main (String[] args){
+		new Gameboard();
+	}
+
+}
