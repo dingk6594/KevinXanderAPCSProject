@@ -36,11 +36,16 @@ public class Card extends JLabel implements MouseListener{
 	{
 		this.faceColor = c;
 	}
+	
+	public Color getFaceColor()
+	{
+		return this.faceColor;
+	}
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
-		showFace();
+		KevinXanderMemoryGame.Gameboard.CurrentWindow.CardPicked(this);
 		
 	}
 
