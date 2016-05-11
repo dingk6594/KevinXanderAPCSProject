@@ -1,0 +1,11 @@
+package CardsForKevinXanderMemoryGame;
+
+import java.awt.Color;
+
+public class AbstractClass 
+{
+	public abstract class Cards
+	{
+		public abstract Color c();
+	}
+}

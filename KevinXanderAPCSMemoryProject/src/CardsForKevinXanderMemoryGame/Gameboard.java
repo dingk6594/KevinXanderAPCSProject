@@ -30,7 +30,9 @@ public class Gameboard extends JFrame
 		getContentPane().add(new YellowCard());
 		getContentPane().add(new PinkCard());
 		getContentPane().add(new RedCard());
+		getContentPane().add(new GreenCard());
 		getContentPane().add(new BlueCard());
+		getContentPane().add(new GreenCard());
 	}
 	private void AddPoint()
 	{

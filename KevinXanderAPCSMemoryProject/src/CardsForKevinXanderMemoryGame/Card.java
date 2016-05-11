@@ -6,7 +6,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import javax.swing.JLabel;
 
-public class Card extends JLabel implements MouseListener
+public abstract class Card extends JLabel implements MouseListener
 {	
 	private Color cardFaceColor = Color.GREEN;
 	private final static Dimension CARD_SIZE = new Dimension(50,100);
@@ -19,6 +19,7 @@ public class Card extends JLabel implements MouseListener
 		setBackground(Color.BLACK);
 		addMouseListener(this);
 	}
+
 	public void showFace()
 	{
 		setBackground(cardFaceColor);

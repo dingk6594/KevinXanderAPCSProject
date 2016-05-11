@@ -6,3 +6,6 @@
 1462864508303	Delete element
 1462942281646	Rename field 'faceColor'
 1462942614392	Rename field 'size'
+1462946294228	Rename type 'Card'
+1462946315933	Rename type 'CardColors'
+1462946324909	Rename type 'AbstractClass'
