@@ -28,14 +28,11 @@ public class Gameboard extends JFrame
 		getContentPane().add(new PinkCard());
 		getContentPane().add(new RedCard());
 		getContentPane().add(new YellowCard());
-		getContentPane().add(new PinkCard());
-		getContentPane().add(new RedCard());
-		getContentPane().add(new BlueCard());
 	}
 	private void AddPoint()
 	{
 		points += 1;
-		setTitle(title = " - " + points + " Point(s)");
+		setTitle(title = " - " + points + "Points");
 	}
 	public void CardPicked(Card card)
 	{

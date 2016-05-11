@@ -27,33 +27,47 @@ public class Card extends JLabel implements MouseListener
 	{
 		setBackground(Color.BLACK);
 	}
+	
 	public void setFaceColor(Color c)
 	{
 		this.cardFaceColor = c;
 	}
+	
 	public Color getFaceColor()
 	{
 		return this.cardFaceColor;
 	}
+
 	@Override
-	public void mouseClicked(MouseEvent e) 
-	{
+	public void mouseClicked(MouseEvent e) {
+		// TODO Auto-generated method stub
 		CardsForKevinXanderMemoryGame.Gameboard.CurrentWindow.CardPicked(this);
+		
 	}
+
 	@Override
-	public void mouseEntered(MouseEvent e) 
-	{
+	public void mouseEntered(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
+
 	@Override
-	public void mouseExited(MouseEvent e)
-	{
+	public void mouseExited(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
+
 	@Override
-	public void mousePressed(MouseEvent e) 
-	{
+	public void mousePressed(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
+
 	@Override
-	public void mouseReleased(MouseEvent e)
-	{
+	public void mouseReleased(MouseEvent e) {
+		// TODO Auto-generated method stub
+		
 	}
+	
+
 }
