@@ -2,31 +2,24 @@ package CardsForKevinXanderMemoryGame;
 
 import java.awt.Color;
 import java.awt.FlowLayout;
-
 import javax.swing.JFrame;
-
-
 import CardsForKevinXanderMemoryGame.*;
 
-public class Gameboard extends JFrame{
-	
+public class Gameboard extends JFrame
+{
 	public static Gameboard CurrentWindow = null;
-	
 	private String title = "Memory Game";
-	
 	private Card ChosenCard = null;
 	private int points = 0;
 	
-	public Gameboard(){
-		setSize(400,400);
+	public Gameboard()
+	{
+		setSize(800,400);
 		setTitle(title);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
 		setUpGame();
-		
 		setVisible(true);
 	}
-	
 	private void setUpGame()
 	{
 		getContentPane().setLayout(new FlowLayout());
@@ -35,22 +28,22 @@ public class Gameboard extends JFrame{
 		getContentPane().add(new PinkCard());
 		getContentPane().add(new RedCard());
 		getContentPane().add(new YellowCard());
-			
 	}
-	
-	private void AddPoint(){
+	private void AddPoint()
+	{
 		points += 1;
 		setTitle(title = " - " + points + "Points");
 	}
-	
 	public void CardPicked(Card card)
 	{
-		if(ChosenCard == null){
+		if(ChosenCard == null)
+		{
 			card.showFace();
 			ChosenCard = card;
 			return;
 		}
-		if( ChosenCard == card){
+		if(ChosenCard == card)
+		{
 			card.hideFace();
 			ChosenCard = null;
 			return;
@@ -67,10 +60,8 @@ public class Gameboard extends JFrame{
 		ChosenCard.hideFace();
 		ChosenCard = null;
 	}
-	
-	
-	public static void main (String[] args){
+	public static void main (String[] args)
+	{
 		CurrentWindow = new Gameboard();
 	}
-
 }

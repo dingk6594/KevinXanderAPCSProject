@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 public class Card extends JLabel implements MouseListener{
 	
 	private Color faceColor = Color.GREEN;
-	private final static Dimension size = new Dimension(50,50);
+	private final static Dimension size = new Dimension(50,100);
 	
 	public Card()
 	{
